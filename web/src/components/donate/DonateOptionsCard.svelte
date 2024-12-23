@@ -99,6 +99,7 @@
     };
 </script>
 
+<!--
 <DonateCardContainer id="donation-box">
     <div id="donation-types" role="tablist" aria-orientation="horizontal">
         <button
@@ -219,6 +220,7 @@
         </button>
     </div>
 </DonateCardContainer>
+-->
 
 <style>
     :global(#donation-box) {

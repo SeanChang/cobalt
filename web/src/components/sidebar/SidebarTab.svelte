@@ -43,9 +43,6 @@
     role="tab"
     aria-selected={isTabActive}
 >
-    {#if beta}
-        <div class="beta-sign" aria-label={$t("general.beta")}>β</div>
-    {/if}
 
     <svelte:component this={icon} />
     {$t(`tabs.${name}`)}

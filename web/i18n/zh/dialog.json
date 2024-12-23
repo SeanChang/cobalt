@@ -1,0 +1,18 @@
+{
+    "reset.title": "重置所有数据？",
+    "reset.body": "你确定要重置所有数据吗？此操作立即生效且不可逆转。",
+    "picker.title": "选择要保存的内容",
+    "picker.description.desktop": "点击某个项目进行保存。图片也可通过右键菜单保存。",
+    "picker.description.phone": "按下某个项目进行保存。图片也可长按进行保存。",
+    "picker.description.ios": "按下某个项目通过快捷方式保存它。图片也可长按进行保存。",
+    "saving.title": "选择保存方式",
+    "saving.blocked": "orz（orzdl.com）尝试在新标签页中打开文件，但你的浏览器阻止了该操作。你可以允许orz（orzdl.com）弹出窗口，以防止下次再出现这种情况。",
+    "saving.timeout": "orz（orzdl.com）尝试自动保存文件，但你的浏览器阻止了该操作。你需要手动选择首选的保存方法。",
+    "safety.title": "重要安全提示",
+    "import.body": "导入未知或损坏的文件可能会意外地改变或破坏orz（orzdl.com）的功能。仅导入你亲自导出且未修改过的文件。如果有人要求你导入此文件——请勿操作。\n\n我们对因导入未知设置文件而造成的任何损害概不负责。",
+    "api.override.title": "处理实例覆盖",
+    "api.override.body": "{{ value }}现在是处理实例。如果你不信任它，请按“取消”键，它将被忽略。\n\n你可以稍后在处理设置中更改你的选择。",
+    "safety.custom_instance.body": "自定义实例可能会带来隐私和安全风险。\n\n不良实例可能会：\n1. 将你从orz（orzdl.com）重定向出去，并试图诈骗你。\n2. 记录你所有请求信息，永久存储并利用它来追踪你。\n3. 向你提供恶意文件（如恶意软件）。\n4. 强迫你观看广告，或让你为下载付费。\n\n在此之后，我们无法保护你。请留意使用哪些实例，始终相信自己的直觉。如果感觉有任何不对劲的地方，返回此页面，重置自定义实例，并在GitHub上向我们报告。",
+    "processing.ongoing": "orz（orzdl.com）目前正在此标签页中处理媒体文件。离开此页面将会中止处理。你确定要这样做吗？",
+    "processing.title.ongoing": "处理将被取消"
+} 

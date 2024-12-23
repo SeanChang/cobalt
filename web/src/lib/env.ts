@@ -17,11 +17,11 @@ const variables = {
 }
 
 const contacts = {
-    discord: "https://discord.gg/pQPt8HBUPu",
-    twitter: "https://x.com/justusecobalt",
-    github: "https://github.com/imputnet/cobalt",
-    bluesky: "https://bsky.app/profile/cobalt.tools",
-    telegram_ru: "https://t.me/justusecobalt_ru",
+    discord: "https://xuanyuan.me/",
+    twitter: "https://x.com/4xy",
+    github: "https://xuanyuan.me/",
+    bluesky: "https://xuanyuan.me/",
+    telegram_ru: "https://xuanyuan.me/",
 }
 
 const partners = {
@@ -55,7 +55,7 @@ const docs = {
     apiLicense: "https://github.com/imputnet/cobalt/blob/main/api/LICENSE",
 };
 
-const defaultApiURL = "https://api.cobalt.tools";
+const defaultApiURL = "http://localhost:9000/";
 
 export { donate, defaultApiURL, contacts, partners, siriShortcuts, docs };
 export default variables;

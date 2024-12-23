@@ -128,9 +128,10 @@
     refer to the license first https://github.com/imputnet/cobalt/tree/main/web#license
 -->
 {#if env.DEFAULT_API || (!$page.url.host.endsWith(".cobalt.tools") && $page.url.host !== "cobalt.tools")}
-    <div id="instance-label">
+    
+<!--<div id="instance-label">
         {$t("save.label.community_instance")}
-    </div>
+    </div>-->
 {/if}
 
 <div id="omnibox">

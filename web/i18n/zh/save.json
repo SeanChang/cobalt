@@ -1,0 +1,23 @@
+{
+    "paste": "粘贴",
+    "paste.long": "粘贴并下载",
+    "auto": "自动",
+    "audio": "音频",
+    "mute": "静音",
+    "input.placeholder": "在此处粘贴链接",
+    "terms.note.agreement": "继续操作即表示你同意",
+    "terms.note.link": "使用条款与道德规范",
+    "services.title": "支持的服务",
+    "services.title_show": "显示支持的服务",
+    "services.title_hide": "隐藏支持的服务",
+    "services.disclaimer": "orz（orzdl.com）与上述列出的任何服务均无关联。",
+    "tutorial.title": "如何在iOS系统上保存？",
+    "tutorial.intro": "要在iOS系统上便捷地保存媒体文件，你需要从分享页面使用配套的Siri快捷指令。",
+    "tutorial.step.1": "添加配套的Siri快捷指令：",
+    "tutorial.step.2": "按下orz（orzdl.com）保存对话框中的“分享”按钮。",
+    "tutorial.step.3": "在分享页面中选择相应的快捷指令。",
+    "tutorial.outro": "这些快捷指令仅在orz（orzdl.com）应用内有效，从其他应用分享链接则无法使用。",
+    "tutorial.shortcut.photos": "保存至照片",
+    "tutorial.shortcut.files": "保存至文件",
+    "label.community_instance": "社区实例"
+}

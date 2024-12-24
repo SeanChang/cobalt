@@ -14,6 +14,7 @@
     import IconMoodSmileBeam from "@tabler/icons-svelte/IconMoodSmileBeam.svelte";
 
     import CobaltQr from "$components/icons/CobaltQR.svelte";
+    import CobaltQr2 from "$components/icons/CobaltQR2.svelte";
     import CopyIcon from "$components/misc/CopyIcon.svelte";
 
     const cobaltUrl = "https://orzdl.com/";
@@ -32,7 +33,7 @@
 <DonateCardContainer id="share-box" classes={expanded ? "expanded" : ""}>
     <div id="share-card-header">
         <div class="share-header-icon"><IconMoodSmileBeam /></div>
-        <div class="donate-card-title">{$t("donate.share.title")}</div>
+        <div class="donate-card-title">WeChat payment QR code</div>
     </div>
     <div id="share-card-body">
         <button
@@ -45,6 +46,85 @@
             )}
         >
             <CobaltQr />
+        </button>
+        <div id="action-buttons">
+            <button
+                id="action-button-copy"
+                class="action-button"
+                on:click={async () => {
+                    copyURL(cobaltUrl);
+                    copied = true;
+                }}
+                aria-label={copied ? $t("button.copied") : ""}
+            >
+                <div class="action-button-icon">
+                    <CopyIcon check={copied} />
+                </div>
+                {$t("button.copy")}
+            </button>
+
+            {#if device.supports.share}
+                <button
+                    id="action-button-share"
+                    class="action-button"
+                    on:click={async () => shareURL(cobaltUrl)}
+                >
+                    <div class="action-button-icon">
+                        <IconShare2 />
+                    </div>
+                    {$t("button.share")}
+                </button>
+            {/if}
+
+            <button
+                id="action-button-github"
+                class="action-button"
+                on:click={async () => openURL(contacts.github)}
+            >
+                <div class="action-button-icon">
+                    <IconBrandGithub />
+                </div>
+                {$t("button.star")}
+            </button>
+
+            {#if $locale !== "ru"}
+                <button
+                    id="action-button-twitter"
+                    class="action-button"
+                    on:click={async () => openURL(contacts.twitter)}
+                >
+                    <div class="action-button-icon">
+                        <IconBrandTwitter />
+                    </div>
+                    {$t("button.follow")}
+                </button>
+            {/if}
+        </div>
+    </div>
+    <div
+        class="donate-card-subtitle share-footer-link"
+        class:centered={expanded}
+    >
+        orzdl.com
+    </div>
+</DonateCardContainer>
+
+<DonateCardContainer id="share-box" classes={expanded ? "expanded" : ""}>
+    <div id="share-card-header">
+        <div class="share-header-icon"><IconMoodSmileBeam /></div>
+        <div class="donate-card-title">Alipay payment QR code</div>
+    </div>
+    <div id="share-card-body">
+        <button
+            id="share-qr"
+            on:click={() => {
+                expanded = !expanded;
+            }}
+            aria-label={$t(
+                `a11y.donate.share.qr.${expanded ? "collapse" : "expand"}`
+            )}
+        >
+            <CobaltQr2 />
         </button>
         <div id="action-buttons">
             <button

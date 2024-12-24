@@ -69,18 +69,6 @@
         </PageNavSection>
 
         <PageNavSection>
-            <PageNavTab
-                path="/settings/instances"
-                title={$t("settings.page.instances")}
-                icon={IconWorld}
-                iconColor="gray"
-            />
-            <PageNavTab
-                path="/settings/advanced"
-                title={$t("settings.page.advanced")}
-                icon={IconAdjustmentsStar}
-                iconColor="gray"
-            />
             {#if $settings.advanced.debug}
                 <PageNavTab
                     path="/settings/debug"

@@ -19,12 +19,10 @@
         data-first-focus
         data-focus-ring-hidden
     >
-        <Meowbalt emotion="smile" />
         <Omnibox />
     </main>
     <div id="terms-note">
-        {$t("save.terms.note.agreement")}
-        <a href="/about/terms">{$t("save.terms.note.link")}</a>
+        <a href="">2024 copyright@</a>
     </div>
 </div>
 
